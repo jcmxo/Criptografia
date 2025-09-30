@@ -1,19 +1,19 @@
-﻿# LibrerÃ­a CriptogrÃ¡fica (TypeScript)
+﻿# Librería Criptográfica (TypeScript)
 
 Funciones incluidas:
 - Hash: SHA-256 (`sha256Hex`)
-- Cifrado simÃ©trico: AES-GCM (`aesGcmEncrypt`/`aesGcmDecrypt`)
+- Cifrado simétrico: AES-GCM (`aesGcmEncrypt`/`aesGcmDecrypt`)
 - Firmas Ed25519 (`ed25519GenerateKeypair`, `ed25519Sign`, `ed25519Verify`)
 
 ## Requisitos
 - Node.js 18+
 
 ## Scripts
-- `npm test` â€” ejecuta tests con Jest
-- `npm run build` â€” compila TypeScript a `dist/`
-- `npm start` â€” ejecuta `main.ts` con ts-node (demo)
+- `npm test` - ejecuta tests con Jest
+- `npm run build` - compila TypeScript a `dist/`
+- `npm start` - ejecuta `main.ts` con ts-node (demo)
 
-## Uso rÃ¡pido
+## Uso rápido
 ```ts
 import { sha256Hex, randomBytes, aesGcmEncrypt, aesGcmDecrypt, ed25519GenerateKeypair, ed25519Sign, ed25519Verify } from './src';
 
